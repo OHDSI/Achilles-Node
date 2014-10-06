@@ -12,7 +12,7 @@ testAchilles <- function (jsonObj) {
  analysesToRun <- o$analyses
 
  # example achilles call and get count
-connectionDetails <- createConnectionDetails(dbms="postgresql", "<username>", "<password>", "<database>", <sid>, <db>)
+connectionDetails <- createConnectionDetails(dbms="postgresql", "<username>", "<password>", "<database>", <sid>, "<db>")
  
 renderedSql <- loadRenderTranslateSql(sqlFilename = "Achilles.sql",
                                     packageName = "Achilles",
